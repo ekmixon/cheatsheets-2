@@ -3,7 +3,7 @@ import matplotlib as mpl
 import seaborn as sns
 
 tips = sns.load_dataset("tips")
-print(tips.iloc[0:5])
+print(tips.iloc[:5])
 
 sns.set()
 sns.lmplot(x='total_bill', y='tip', 
